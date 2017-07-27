@@ -36,6 +36,8 @@ a {
 #wrapper {
 	display: flex;
 	padding: .5rem;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 #nav {
