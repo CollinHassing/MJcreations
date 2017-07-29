@@ -6,7 +6,7 @@ modal.onclick = function() {
     modal.style.display = "none";
 }
 
-$('img').on('click', function () {
+$('img').on('click touchstart', function () {
     modal.style.display = "block";
 	innerImg.src = this.src;
 });
