@@ -107,7 +107,7 @@ img:hover {
 	display: block;
 	width: 80%;
 	max-width: 700px;
-	max-height: 80vh;
+	max-height: 80%;
 	overflow: hidden;
 	animation-name: zoom;
 	animation-direction: 0.6s;
