@@ -3,7 +3,7 @@ $(document).ready(function() {
 var modal = document.getElementById('imgModal');
 var innerImg = document.getElementById('innerImg');
 
-$('img').on('click tap', function () {
+$('img').on('click', function () {
     modal.style.display = "block";
 	innerImg.src = this.src;
 });
