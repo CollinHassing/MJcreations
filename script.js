@@ -9,4 +9,4 @@ $('img').on('click', function () {
     modal.style.display = "block";
 	innerImg.src = this.src;
 	});
-}
+});
